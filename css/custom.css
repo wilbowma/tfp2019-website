@@ -1,0 +1,68 @@
+/*!
+ * Copyright 2018 William J. Bowman
+ * Licensed under Creative Commons Attribution 4.0 International License https://creativecommons.org/licenses/by/4.0/
+ */
+
+.ml-auto {
+    margin-left: 0px !important;
+}
+
+.jumbotron {
+    padding: 1rem 1rem !important;
+}
+
+.program-abstract {
+    display: none;
+}
+
+.hide-abstract {
+    display: none;
+    margin-left: 5px;
+}
+
+tr:target .program-abstract {
+    display: table-caption;
+    width: 100%;
+}
+
+tr:target .hide-abstract {
+    display: inline;
+}
+
+.program-abstract .lead {
+    font-size: 1rem !important;
+}
+
+.license {
+    /*background: rgba(255, 255, 255, 0.5);*/
+    color: #f1f1f1;
+    transition: 1s ease;
+    opacity: 0;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+
+.licensed-img:hover .license {
+    opacity: 1;
+}
+
+/* nojs navbar toggling */
+.navbar-hide {
+    display: none;
+}
+
+.navbar:target .navbar-display {
+    display: none;
+}
+
+.navbar:target .navbar-hide {
+    display: inline;
+}
+
+.navbar:target .navbar-collapse {
+    display: block;
+}
+
+.wjb:after { content:'@williamjbowman.com' }
+.ubc:after { content:'@cs.ubc.edu' }
