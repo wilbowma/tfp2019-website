@@ -53,7 +53,7 @@ will take place on @|tfpie-start-date|.</p>
 class="ubc">rxg</span>) and <a href="//williamjbowman.com">William J.
 Bowman</a> (<span class="wjb">wjb</span>).
 Contact them general questions.
-For problems with this website, file a report on <a href="https://github.com/wilbowma/tfp2019-website">on GitHub</a>.
+For problems with this website, file a report on <a target="_blank" href="https://github.com/wilbowma/tfp2019-website">on GitHub</a>.
 </p>
 
 @(when display-speakers?
