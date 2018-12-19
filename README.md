@@ -6,5 +6,6 @@ File issues and pull requests regarding the TFP 2019 website (https://www.tfp201
 Add dates to "calendar.rkt".
 Add talks to "talks.rkt".
 Schedule the program in "program.rkt".
+Add invited speakers to "invited-speakers.rkt".
 
 Run "make" for help with the Makefile.
