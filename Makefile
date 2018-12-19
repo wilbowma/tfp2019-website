@@ -41,7 +41,7 @@ deploy: Yes_Affect_The_Live_Site
 real_deploy: | clean build test-deploy
 
 test-deploy: build
-	rsync -avz --delete $(BUILD_DIR)/ tfp@tfp2019.org:$(URI_ROOT)
+	rsync -avz --exclude test/ --delete $(BUILD_DIR)/ tfp@tfp2019.org:$(URI_ROOT)
 
 $(BUILD_DIR)/program.html: talks.rkt
 
