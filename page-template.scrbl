@@ -48,6 +48,7 @@
                     </a>
                   </li>}))
             @ni["index.html" "Home"]
+            <li class="nav-item"><a class="nav-link" target="_blank" href="http://www.staff.science.uu.nl/~hage0101/tfpie2019/">TFPIE Website</a></li>
             @ni["call-for-papers.html" "Call for Papers"]
             @ni["program.html" "Program"]
             @ni["registration.html" "Registration"]

@@ -44,9 +44,10 @@ more details about contributions.</p>
 
 <p>TFP 2019 will be the main event of a pair of functional programming
 events, and will take place @|tfp-dates|.
-TFP 2019 will be accompanied by the International Workshop on Trends in
-Functional Programming in Education (TFPIE), which will take place on
-@|tfpie-start-date|.</p>
+TFP 2019 will be accompanied by the <a
+href="http://www.staff.science.uu.nl/~hage0101/tfpie2019/index.html">International
+Workshop on Trends in Functional Programming in Education (TFPIE)</a>, which
+will take place on @|tfpie-start-date|.</p>
 
 <p>The general chairs are <a href="//www.cs.ubc.ca/~rxg/">Ron Garcia</a> (<span
 class="ubc">rxg</span>) and <a href="//williamjbowman.com">William J.
