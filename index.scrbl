@@ -26,12 +26,12 @@
         </div>})
 
 <!-- Jumbotron Header -->
-<figure class="licensed-img text-center jumbotron">
+<figure class="licensed-img text-center jumbotron mb-2">
   <h3>Trends in Functional Programming</h3>
   <h5>@|tfp-dates|</h5>
   <h5>@|tfp-venue|</h5>
-    <img class="rounded figure-img img-fluid" alt="Downtown Vancouver, at sunset" src="@|uri-root|resources/vancouver.jpg"></img>
-    <div class="figure-caption license"><a href="http://creativecommons.org/licenses/by-sa/3.0/deed.en">CC BY-SA 3.0</a></div>
+    <img class="rounded figure-img img-fluid" alt="Vancouver panorama from stanley park" src="@|uri-root|resources/vancouver2.jpg"></img>
+    <div class="figure-caption license"><a href="https://commons.wikimedia.org/wiki/Main_Page">Public Domain from Wikimedia Commons</a></div>
 </figure>
 
 <p>The symposium on Trends in Functional Programming (TFP) is an international
