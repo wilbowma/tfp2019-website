@@ -19,7 +19,7 @@
     ("Student Paper Feedback" "Friday June 21, 2019")
     ("Submission for Formal Review" "Thursday, August 1, 2019")
     ("Notification of Acceptance" "Thursday, October 24, 2019")
-    ("Camera Ready" "Saturday, November 30, 2019")))
+    ("Camera Ready" "Friday, November 29, 2019")))
 
 (define (render-calendar-row title date)
   @list{<tr>
