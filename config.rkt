@@ -8,7 +8,7 @@
 (define build-dir "/tmp/tfp2019.output/")
 
 (define tfpie-start-date "June 11, 2019")
-(define submission-url "The submission site is not yet up.") ;https://easychair.org/conferences/?conf=tfp2018")
+(define submission-url "https://easychair.org/conferences/?conf=tfp2019")
 
 (define tfp-dates "June 12—14, 2019")
 (define tfp-venue "Vancouver, BC, CA")

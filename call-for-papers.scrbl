@@ -65,7 +65,7 @@ contact the TFP 2019 program chairs, William J. Bowman and Ron Garcia.</p>
 @section{Instructions to Author
 <p>Papers must be submitted at:</p>
 
-<blockquote>@|submission-url|</blockquote>
+<blockquote>@(hyperlink submission-url submission-url)</blockquote>
 
 <p>Authors of papers have the choice of having their contributions formally
 reviewed either before or after the Symposium.</p>
