@@ -103,3 +103,6 @@ feedback by one of the PC members shortly after the symposium has taken place.</
 For more information about formatting please consult the
 @hyperlink["http://www.springer.com/lncs"]{Springer LNCS web site}.</p>
 }
+
+<h5>Program Committee</h5>
+@(tabularize
