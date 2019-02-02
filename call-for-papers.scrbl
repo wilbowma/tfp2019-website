@@ -5,7 +5,7 @@
 @#:description The Call for Papers (CFP) for Trends in Functional Programming (TFP) 2019
 @#:keywords tfp,trends in functional programming,functional programming,conference,vancouver,cfp,call,call for papers
 
-@(require "calendar.rkt")
+@(require "calendar.rkt" "pc.rkt")
 
 @page-header{TFP 2019 Call for Papers}
 
@@ -104,5 +104,13 @@ For more information about formatting please consult the
 @hyperlink["http://www.springer.com/lncs"]{Springer LNCS web site}.</p>
 }
 
-<h5>Program Committee</h5>
-@(tabularize
+@section{Program Committee
+<table class="table">
+@(for/list ([p pc-map])
+   @list{
+   <tr>
+   <td>@first[p]</td>
+   <td>@second[p]</td>
+   </tr>})
+</table>
+}
