@@ -12,14 +12,16 @@
 (define display-calendar? #t)
 
 (define calendar
-  `(("Submission Deadline" "Thursday, March 28, 2019")
-    ("Paper Notification" "Thursday, May 2, 2019")
+  `(("Submission Deadline (pre-sympoisum formal review)" "Thursday, March 28, 2019")
+    ("Submission Deadline (post-symposium formal review)" "Thursday, April 25, 2019")
+    ("Notification (pre-symposium)" "Thursday, May 2, 2019")
+    ("Notification (post-symposium)" "Thursday, May 2, 2019")
     ("<a href=\"http://www.staff.science.uu.nl/~hage0101/tfpie2019/index.html\">TFPIE</a>" "Tuesday, June 11, 2019")
     ("Symposium" "Wednesday, June 12, 2019 – Friday, June 14, 2019")
     ("Student Paper Feedback" "Friday June 21, 2019")
-    ("Submission for Formal Review" "Thursday, August 1, 2019")
-    ("Notification of Acceptance" "Thursday, October 24, 2019")
-    ("Camera Ready" "Friday, November 29, 2019")))
+    ("Submission Deadline (post-symposium formal review)" "Thursday, August 1, 2019")
+    ("Notification (post-symposium)" "Thursday, October 24, 2019")
+    ("Camera Ready (both pre- and post-symposium)" "Friday, November 29, 2019")))
 
 (define (render-calendar-row title date)
   @list{<tr>

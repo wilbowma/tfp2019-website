@@ -79,8 +79,9 @@ presentation at the symposium, but will not be considered for the post-symposium
 formal review.</p>
 
 <h5>Post-symposium formal review</h5>
-<p>Draft papers will receive minimal reviews and notification of acceptance for
-presentation at the symposium.
+<p>Papers submitted for post-symposium review (draft papers) will receive
+minimal reviews and notification of acceptance for presentation at the
+symposium.
 Authors of draft papers will be invited to submit revised papers based on the
 feedback receive at the symposium.
 A post-symposium refereeing process will then select a subset of these articles
@@ -88,14 +89,39 @@ for formal publication.</p>
 
 <h5>Paper categories</h5>
 
-<p>Draft papers and papers submitted for formal review are submitted as extended
-abstracts (4 to 10 pages in length) or full papers (20 pages).
-The submission must clearly indicate which category it belongs to: research,
-position, project, evaluation, or overview paper.
-It should also indicate which authors are research students, and whether the
-main author(s) are students.
-A draft paper for which all authors are students will receive additional
-feedback by one of the PC members shortly after the symposium has taken place.</p>
+<p>There are two <em>types</em> of submission, each of which can be submitted either for
+pre-symposium or post-symposium review:
+<ul>
+<li><em>Extended abstracts</em>.
+Extended abstracts are 4 to 10 pages in length.
+</li>
+<li><em>Full papers</em>.
+Full papers are up to 20 pages in length.
+</li>
+</ul>
+</p>
+
+<p>
+Each submission also belongs to a <em>category</em>:
+<ul>
+<li>research</li>
+<li>position</li>
+<li>project</li>
+<li>evaluation</li>
+<li>overview paper</li>
+</ul>
+Each submission should clearly indicate to which category it belongs.
+</p>
+
+<p>Additionally, a submission&#8212;of either type (extended abstract or full paper) and any
+category&#8212;can be considered a <em>student paper</em>.
+A student paper is one for which primary authors are research students and the
+majority of the work described was carried out by the students.
+The submission should indicate that it is a student paper.</p>
+
+<p>Student papers will receive additional feedback by one of the PC members shortly
+after the symposium has taken place and before the post-symposium submission
+deadline.</p>
 
 <h5>Format</h5>
 
