@@ -83,7 +83,7 @@ formal review.</p>
 minimal reviews and notification of acceptance for presentation at the
 symposium.
 Authors of draft papers will be invited to submit revised papers based on the
-feedback receive at the symposium.
+feedback received at the symposium.
 A post-symposium refereeing process will then select a subset of these articles
 for formal publication.</p>
 
@@ -113,15 +113,21 @@ Each submission also belongs to a <em>category</em>:
 Each submission should clearly indicate to which category it belongs.
 </p>
 
-<p>Additionally, a submission&#8212;of either type (extended abstract or full paper) and any
-category&#8212;can be considered a <em>student paper</em>.
-A student paper is one for which primary authors are research students and the
+<p>Additionally, a <em>draft paper</em> submission&#8212;of either type
+(extended abstract or full paper) and any category&#8212;can be considered a
+<em>student paper</em>.
+A <em>student paper</em> is one for which primary authors are research students and the
 majority of the work described was carried out by the students.
 The submission should indicate that it is a student paper.</p>
 
-<p>Student papers will receive additional feedback by one of the PC members shortly
-after the symposium has taken place and before the post-symposium submission
-deadline.</p>
+<p>Student papers will receive additional feedback from the PC shortly after the
+symposium has taken place and before the post-symposium submission deadline.
+Feedback is only provided for accepted student papers, <em>i.e.</em>, papers
+submitted for presentation and post-symposium formal review that are accepted
+for presentation.
+If a student paper is rejected for presentation, then it receives no further
+feedback and cannot be submitted for post-symposium review.
+</p>
 
 <h5>Format</h5>
 
