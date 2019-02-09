@@ -11,7 +11,7 @@
     ("Sam Lindley" "University of Edinburgh")
     ("Assia Mahboubi" "INRIA Nantes")
     ("Christine Rizkallah" "University of New South Wales")
-    ("Satnam Singh" "X")
+    ("Satnam Singh" "Google AI")
     ("Marco T. Morazán" "Seton Hall University")
     ("Ronald Garcia" "University of British Columbia")
     ("John Hughes" "Chalmers University and Quviq")
