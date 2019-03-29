@@ -26,7 +26,7 @@ $(BUILD_DIR): css/* resources/* vendor/*
 	mkdir -p $@
 	rsync -avz resources vendor css $(BUILD_DIR)/
 
-build: $(BUILD_DIR) $(BUILD_DIR)/index.html $(BUILD_DIR)/call-for-papers.html #$(BUILD_DIR)/program.html
+build: $(BUILD_DIR) $(BUILD_DIR)/index.html $(BUILD_DIR)/call-for-papers.html $(BUILD_DIR)/local-info.html #$(BUILD_DIR)/program.html
 
 serve: build
 	racket -t serve.rkt

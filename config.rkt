@@ -15,6 +15,7 @@
 
 
 @(define (hyperlink a text) @list{<a href=@|a|>@|text|</a>})
+@(define (url a) (hyperlink a a))
 
 (define (page-header str)
   @list{

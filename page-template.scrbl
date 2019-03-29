@@ -52,7 +52,7 @@
             @ni["call-for-papers.html" "Call for Papers"]
             @ni["program.html" "Program"]
             @ni["registration.html" "Registration"]
-            @ni["local.html" "Local Information"]
+            @ni["local-info.html" "Local Information"]
           </ul>
         </div>
       </div>
