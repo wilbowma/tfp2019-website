@@ -14,6 +14,8 @@
 }
 
 @section{Accommodations
+
+<h5>Conference Group Booking</h5>
 <p>We have reserved a group booking through UBC's conference services. Below please find the information for accommodation bookings.</p>
 
 <p>Online Booking Link:
@@ -35,8 +37,70 @@ using Safari can sometimes have difficulties/system can be slow.</p>
 </p>
 }
 
+<h5>Other On-Campus Accomodations</h5>
+
+<table class="table">
+<tr>
+  <th>Accomodation Name</th>
+  <th>Website</th>
+</tr>
+<tr>
+  <td>TRIUMF Guest House</td>
+  <td>@url{http://www.triumfhouse.ca/}</td>
+</tr>
+<tr>
+  <td>Pacific Spirit Hostel Vancouver</td>
+  <td>@url{http://www.ubcconferences.com/accommodations/pacific-spirit/}</td>
+</tr>
+<tr>
+  <td>St. John's College</td>
+  <td>@url{http://www.stjohns.ubc.ca/}</td>
+</tr>
+<tr>
+  <td>Green College</td>
+  <td>@url{http://www.greencollege.ubc.ca/}</td>
+</tr>
+<tr>
+  <td>St. Andrew's Hall</td>
+  <td>@url{http://www.standrews.edu/}</td>
+</tr>
+<tr>
+  <td>Carey Centre</td>
+  <td>@url{http://www.carey-edu.ca/}</td>
+</tr>
+</table>
+
 @section{Transportation
 
 <p>For transportation information, please visit UBC's transportation website:
 @url{https://transportation.ubc.ca/home-page/from-the-airport/}.</p>
+}
+
+@section{Things to see
+
+Some things to see in Vancouver:
+<ul>
+  <li>Stanley Park/Prospect Point</li>
+  <li>Gastown</li>
+  <li>Granville Island</li>
+  <li>Coal Harbour downtown</li>
+  <li>Chinatown</li>
+  <li>Robson Art Gallery</li>
+  <li>Aquarium (in Stanley Park)</li>
+  <li>Grouse Mountain (there's a bus from downtown to the mountain!)</li>
+  <li>Capilano Suspension Bridge</li>
+  <li>Harrison Hot Springs</li>
+  <li>Whistler</li>
+</ul>
+
+Some things to see at UBC:
+<ul>
+  <li>Botanical Gardens</li>
+  <li>Nitobe Gardens</li>
+  <li>Museum of Anthropology</li>
+  <li>UBC Pool</li>
+  <li>Beaty Biodiversity Museum</li>
+</ul>
+
+For other ideas, see @url{https://www.tourismvancouver.com/events/seasonal-events/?gclid=EAIaIQobChMIuL7jgqCo4QIVyR-tBh0XEAQCEAAYASAAEgL1QvD_BwE}.
 }
