@@ -13,9 +13,9 @@
 
 (define calendar
   `(("Submission Deadline for pre-symposium formal review" "Thursday, March 28, 2019")
-    ("Submission Deadline for Draft Papers" "Thursday, May 9, 2019")
+    ("Submission Deadline for Draft Papers" "<span style='text-decoration: line-through;'>Thursday, May 9, 2019</span><br />Extended: Thursday, May 16, 2019")
     ("Notification for pre-symposium submissions" "Thursday, May 2, 2019")
-    ("Notification for Draft Papers" "Tuesday, May 14, 2019")
+    ("Notification for Draft Papers" "<span style='text-decoration: line-through;'>Tuesday, May 14, 2019</span><br />Extended: Tuesday, May 21, 2019")
     ("<a href=\"http://www.staff.science.uu.nl/~hage0101/tfpie2019/index.html\">TFPIE</a>" "Tuesday, June 11, 2019")
     ("Symposium" "Wednesday, June 12, 2019 – Friday, June 14, 2019")
     ("Notification of Student Paper Feedback" "Friday June 21, 2019")
