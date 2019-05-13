@@ -14,7 +14,7 @@
    @list{
          <div class="col-lg-4 col-md-6 mb-4">
            <div class="card">
-             <img class="card-img-top" src="@|pic|" alt="@|alt|">
+             <img width=500 height=325 class="card-img-top" src="@|pic|" alt="@|alt|">
              <div class="card-body">
                <h5 class="card-title">@|name|</h5>
                <p class="card-text">@|body|</p>
@@ -60,7 +60,7 @@ For problems with this website, file a report on <a target="_blank" href="https:
    @list{
 <!-- Page Features -->
 @section-header{Invited Speakers!}
-<div class="row text-center">
+<div class="row text-center justify-content-center">
 @(for/list ([i invited-speakers])
    (make-speaker-card
     (first i)

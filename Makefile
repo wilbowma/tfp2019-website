@@ -45,6 +45,8 @@ test-deploy: build
 
 $(BUILD_DIR)/program.html: talks.rkt
 
+$(BUILD_DIR)/index.html: invited-speakers.rkt
+
 $(BUILD_DIR)/%.html: %.scrbl config.rkt page-mlang.rkt page-lang.rkt page-template.scrbl
 	racket -t $< > $@
 
