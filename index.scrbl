@@ -10,13 +10,13 @@
 
 @(require "invited-speakers.rkt" "calendar.rkt")
 
-@(define (make-speaker-card name pic alt body)
+@(define (make-speaker-card name pic alt body url)
    @list{
          <div class="col-lg-4 col-md-6 mb-4">
            <div class="card">
-             <img width=500 height=325 class="card-img-top" src="@|pic|" alt="@|alt|">
+             <a href="@|url|"><img width=500 height=325 class="card-img-top" src="@|pic|" alt="@|alt|"></a>
              <div class="card-body">
-               <h5 class="card-title">@|name|</h5>
+               <a href="@|url|"><h5 class="card-title">@|name|</h5></a>
                <p class="card-text">@|body|</p>
              </div>
 @;             <div class="card-footer">
@@ -66,7 +66,9 @@ For problems with this website, file a report on <a target="_blank" href="https:
     (first i)
     (second i)
     (third i)
-    (fourth i)))
+    (fourth i)
+    (fifth i)
+    ))
 <!-- /.row -->
 </div>})
 
