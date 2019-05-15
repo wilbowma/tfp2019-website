@@ -37,38 +37,38 @@ using Safari can sometimes have difficulties/system can be slow.</p>
 </p>
 }
 
-<h5>Other On-Campus Accomodations</h5>
-
-<table class="table">
-<tr>
-  <th>Accomodation Name</th>
-  <th>Website</th>
-</tr>
-<tr>
-  <td>TRIUMF Guest House</td>
-  <td>@url{http://www.triumfhouse.ca/}</td>
-</tr>
-<tr>
-  <td>Pacific Spirit Hostel Vancouver</td>
-  <td>@url{http://www.ubcconferences.com/accommodations/pacific-spirit/}</td>
-</tr>
-<tr>
-  <td>St. John's College</td>
-  <td>@url{http://www.stjohns.ubc.ca/}</td>
-</tr>
-<tr>
-  <td>Green College</td>
-  <td>@url{http://www.greencollege.ubc.ca/}</td>
-</tr>
-<tr>
-  <td>St. Andrew's Hall</td>
-  <td>@url{http://www.standrews.edu/}</td>
-</tr>
-<tr>
-  <td>Carey Centre</td>
-  <td>@url{http://www.carey-edu.ca/}</td>
-</tr>
-</table>
+@;<h5>Other On-Campus Accomodations</h5>
+@;
+@;<table class="table">
+@;<tr>
+@;  <th>Accomodation Name</th>
+@;  <th>Website</th>
+@;</tr>
+@;<tr>
+@;  <td>TRIUMF Guest House</td>
+@;  <td>@url{http://www.triumfhouse.ca/}</td>
+@;</tr>
+@;<tr>
+@;  <td>Pacific Spirit Hostel Vancouver</td>
+@;  <td>@url{http://www.ubcconferences.com/accommodations/pacific-spirit/}</td>
+@;</tr>
+@;<tr>
+@;  <td>St. John's College</td>
+@;  <td>@url{http://www.stjohns.ubc.ca/}</td>
+@;</tr>
+@;<tr>
+@;  <td>Green College</td>
+@;  <td>@url{http://www.greencollege.ubc.ca/}</td>
+@;</tr>
+@;<tr>
+@;  <td>St. Andrew's Hall</td>
+@;  <td>@url{http://www.standrews.edu/}</td>
+@;</tr>
+@;<tr>
+@;  <td>Carey Centre</td>
+@;  <td>@url{http://www.carey-edu.ca/}</td>
+@;</tr>
+@;</table>
 
 @section{Transportation
 
