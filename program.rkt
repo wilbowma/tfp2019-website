@@ -23,11 +23,7 @@
 #;   ("11:00--11:30" ,example-talk)
 #;   ("11:30--12:00" ,example-talk)
 #;   ("12:00--14:00" ,lunch)
-#;   ("14:00--14:30" ,example-talk)
-#;   ("14:30--15:00" ,example-talk)
-#;   ("15:00--15:30" ,break)
-#;   ("15:30--16:00" ,example-talk)
-#;   ("16:00--16:30" ,example-talk)))
+))
 
 (define fri-slots
   `(("9:30--10:30" ,frank-keynote)
