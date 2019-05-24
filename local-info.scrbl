@@ -7,6 +7,10 @@
 
 @page-header{TFP 2019 Local Info}
 
+@section{Registration
+Please register at the following website: @url{https://events.eply.com/TFPTFPIE2019Registration2953617}.
+}
+
 @section{Venue
 <p>TFP will be held on the UBC campus in the Chemical and Biological Engineering Building (CHBE) room 102.
 
