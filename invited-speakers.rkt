@@ -15,7 +15,7 @@
      )
     (
      "Frank Wood, University of British Columbia"
-     ,(format "~a/resources/frank.jpg" uri-root)
+     ,(format "~aresources/frank.jpg" uri-root)
      "A picture of Frank"
      "Probabilistic Programming"
      "https://www.cs.ubc.ca/~fwood/"
