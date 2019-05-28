@@ -77,7 +77,7 @@
 
 @(define talk1
    @make-talk{Towards Exploring Closureless CPS
-              @authors{Marco T. Morazan, Shamil Dzhatdoyev, Josephine Des Rosiers}
+              @authors{@speaker{Marco T. Morazan}, Shamil Dzhatdoyev, Josephine Des Rosiers}
               @abstract{Transforming programs into continuation-passing style is a common intermediate form that allows programs to be evaluated using a bounded amount of control context. In essence, the transformation into continuation-passing style makes the control context explicit and eliminates all non-tail function calls. The explicit control context is traditionally thought of as a function, known as a continuation, that knows how to finish the computation. Although this abstraction is attractive, naive implementations can suffer from excessive closure allocations for continuations. In fact, an impressive amount of work has been done to reduce closure allocation for programs in continuation-passing style with varying degrees of success. This article describes a newly undertaken project to explore novel implementation strategies for closureless CPS. That is, this article presents a CPS transformation that eliminates the need to dynamically allocate continuation closures by storing on a stack the information that a traditional continuation would require. There are, of course, several design choices that need to be made to represent a program in closureless continuation-passing style. This article outlines the different representations that our new project proposes to empirically study. In addition, the articles outlines the potential advantages and disadvantages of each proposed representation.}
               @resources[#f #f #f]})
 
@@ -89,7 +89,7 @@
 
 @(define talk3
    @make-talk{Quotient Types by Normalization in Cedille
-              @authors{Andrew Marmaduke, Christopher Jenkins, Aaron Stump}
+              @authors{@speaker{Andrew Marmaduke}, Christopher Jenkins, Aaron Stump}
               @abstract{Reasoning about programs and their values is a common motivation for a dependently typed programming language. However, sometimes the privileged equality of the language is not the desired equality of the programmer. Quotient types are a solution to this problem where, for the values of the quotient type, the privileged equality of the language is equivalent to a desired equivalence relation. We demonstrate an efficient encoding of quotient types defined by normalization in Cedille, a new dependently typed programming language, with concrete examples and a generic type. Moreover, we formalize two variants of generic function lifting, one of which is zero run-time cost, and other generic combinators for composing quotients.}
               @resources[#f #f #f]})
 
