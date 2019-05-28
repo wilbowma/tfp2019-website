@@ -1,6 +1,7 @@
 #lang racket/base
 
 (provide (all-defined-out))
+(require "config.rkt")
 
 (define display-speakers? #t)
 (define invited-speakers
@@ -14,7 +15,7 @@
      )
     (
      "Frank Wood, University of British Columbia"
-     "https://www.cs.ubc.ca/~fwood/assets/images/FrankDonaldWood.jpg"
+     ,(format "~a/resources/frank.jpg" uri-root)
      "A picture of Frank"
      "Probabilistic Programming"
      "https://www.cs.ubc.ca/~fwood/"
