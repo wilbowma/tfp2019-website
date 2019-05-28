@@ -89,13 +89,13 @@
 
 @(define talk3
    @make-talk{Quotient Types by Normalization in Cedille
-              @authors{Andrew Marmaduke, Christopher Jenkins and Aaron Stump}
+              @authors{Andrew Marmaduke, Christopher Jenkins, Aaron Stump}
               @abstract{Reasoning about programs and their values is a common motivation for a dependently typed programming language. However, sometimes the privileged equality of the language is not the desired equality of the programmer. Quotient types are a solution to this problem where, for the values of the quotient type, the privileged equality of the language is equivalent to a desired equivalence relation. We demonstrate an efficient encoding of quotient types defined by normalization in Cedille, a new dependently typed programming language, with concrete examples and a generic type. Moreover, we formalize two variants of generic function lifting, one of which is zero run-time cost, and other generic combinators for composing quotients.}
               @resources[#f #f #f]})
 
 @(define talk4
    @make-talk{Early Experience in Teaching the Basics of Functional Language Design with a Language Type Checker
-              @authors{Matteo Cimini}
+              @authors{@speaker{Matteo Cimini}}
               @abstract{In this paper we set forth the thesis that a language type checker can be an effective tool in teaching language design principles of functional languages. We have used TypeSoundnessCertifier, a tool for type checking languages and certifying their soundness, in the context of a graduate course in programming languages. In this paper, we offer details on how the course took place, and we report on some data gathered during evaluations. Although the work reported in this paper is not statistically significant, we share our experience to show the type of studies that we are conducting, and to inspire similar and larger studies towards gathering evidence for, or against, our thesis.}
               @resources[#f #f #f]})
 
