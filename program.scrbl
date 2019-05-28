@@ -62,7 +62,7 @@
 @(define accepted 0)
 @section{Accepted Talks
 
-Click a title to see the abstract.
+Click a title to see the abstract. The speaker is emphasized in the author list.
 
 <table class="table table-hover table-striped">
   @(for/list ([talk talks])
