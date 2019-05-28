@@ -14,6 +14,13 @@
      "https://www.microsoft.com/en-us/research/people/nswamy/"
      )
     (
+     "John Hughes, Chalmers University of Technology"
+     "http://www.cse.chalmers.se/~rjmh/Me%20prisma.jpg"
+     "A picture of Jogn"
+     "Experiences with QuickCheck: Testing the Hard Stuff and Staying Sanei"
+     "http://www.cse.chalmers.se/~rjmh/"
+     )
+    (
      "Frank Wood, University of British Columbia"
      ,(format "~aresources/frank.jpg" uri-root)
      "A picture of Frank"
