@@ -61,6 +61,9 @@
 
 @(define accepted 0)
 @section{Accepted Talks
+
+Click a title to see the abstract.
+
 <table class="table table-hover table-striped">
   @(for/list ([talk talks])
     (set! accepted (add1 accepted))
