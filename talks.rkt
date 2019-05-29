@@ -101,7 +101,7 @@
 
 @(define talk5
    @make-talk{Verifying Selective CPS Transformation for Shift and Reset
-              @authors{Chiaki Ishio, Kenichi Asai}
+              @authors{@speaker{Chiaki Ishio}, Kenichi Asai}
               @abstract{A selective CPS transformation enables us to execute a program with delimited control operators, shift and reset, in a standard functional language without support for control operators. The selective CPS transformation dispatches not only on the structure of the input term but also its purity: it transforms only those parts that actually involve control effects. As such, the selective CPS transformation consists of many rules, each for one possible combination of the purity of subterms, making its verification tedious and error-prone. In this paper, we first formalize (a monomorphic version of) the selective CPS transformation in the Agda proof assistant. We use intrinsically typed term and context representations together with parameterized higher-order abstract syntax (PHOAS) to represent binding structures. We then prove the correctness of the transformation, i.e., the equality of terms is preserved by the CPS transformation. Thanks to the formalization, we confirmed that all the rules of the selective CPS transformation in the previous work are correct, but found that one lemma on the behavior of shift was not precise.}
               @resources[#f #f #f]})
 
@@ -113,7 +113,7 @@
 
 @(define talk7
    @make-talk{Type Inference for Rank 2 Gradual Intersection Types
-              @authors{Pedro Ângelo, Mário Florido}
+              @authors{@speaker{Pedro Ângelo}, Mário Florido}
               @abstract{In this paper we extend a rank 2 intersection type system with gradual types. We then show that the problem of finding a principal typing for a lambda term, in a rank 2 gradual intersection type system is decidable. We present a type inference algorithm which builds the principal typing of a term through the generation of type constraints which are solved by a new extended unification algorithm constructing the most general unifier for rank 2 gradual intersection types.}
               @resources[#f #f #f]})
 
@@ -125,7 +125,7 @@
 
 @(define talk9
    @make-talk{Improving Structure and Performance of iTask SVG Editors
-              @authors{Peter Achten, Rinus Plasmeijer}
+              @authors{@speaker{Peter Achten}, Rinus Plasmeijer}
               @abstract{Interactive web applications need to handle the communication between server and client web browsers. In the iTasks system, this is delegated to a general purpose component, called editor. Editors allow fine grained control over the point of execution on the server, using native code, which is efficient, and on the client, using JavaScript, which is much less efficient. One particular use case of editors uses the W3C Scalable Vector Graphics standard to allow applications to fully customize the look and feel of an editor, called SVG editor. The current implementation is operational, but there is room for improvement, both in terms of code structure and performance. We show how to improve the code structure of SVG editors and at the same time increase their performance. Both improvements are obtained by separating the logic into two embeddings: first, a deep embedding to obtain an isomorphic representation of the image code, and second, a shallow embedding to calculate the actual SVG rendering and proper layout of the deep representation of the image.}
               @resources[#f #f #f]})
 
