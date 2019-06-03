@@ -141,5 +141,5 @@
 @(define anglican-tutorial
    @make-talk{Invited: Anglican Tutorial
               @authors{@speaker{Christian Weilbach}}
-              #f
+              @abstract{TBD}
               @resources[#f #f #f]})
