@@ -8,7 +8,7 @@
   ;; List of (Name x Image-Url x Picture-Alt-Text x Blurb x URL)
   `((
      "Nikhil Swamy, Microsoft Research"
-     "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/01/nikhil-swamy-1-180x180.jpg"
+     ,(format "~aresources/nik.jpg" uri-root)
      "A picture of Nikhil"
      "Structuring the Verification of Imperative Programs with Functional Programming"
      "https://www.microsoft.com/en-us/research/people/nswamy/"
