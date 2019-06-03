@@ -59,20 +59,9 @@
 
 @page-header{TFP 2019 Program}
 
-@(define accepted 0)
-@section{Accepted Talks
-
+@section{Program
 Click a title to see the abstract. The speaker is emphasized in the author list.
 
-<table class="table table-hover table-striped">
-  @(for/list ([talk talks])
-    (set! accepted (add1 accepted))
-    (define id (format "accepted~a" accepted))
-    @list{<tr id="@|id|"><td class="program-time-call">@(talk-cell id talk)</td></tr>})
-</table>
-}
-
-@section{Program
 <table class="table table-hover table-striped">
 @(for/list ([day days]
             [slots slots])
@@ -81,5 +70,16 @@ Click a title to see the abstract. The speaker is emphasized in the author list.
          @(for/list ([slot slots])
             (apply program-slot slot))
          })
+</table>
+}
+
+@(define accepted 0)
+@section{Accepted Talks
+
+<table class="table table-hover table-striped">
+  @(for/list ([talk talks])
+    (set! accepted (add1 accepted))
+    (define id (format "accepted~a" accepted))
+    @list{<tr id="@|id|"><td class="program-time-call">@(talk-cell id talk)</td></tr>})
 </table>
 }

@@ -130,10 +130,16 @@
               @resources[#f #f #f]})
 
 
-@(define talks (list talk1 talk2 talk3 talk4 talk5 talk6 talk7 talk8 talk9))
+@(define talks (list talk1 #;talk2 talk3 talk4 talk5 talk6 talk7 talk8 talk9))
 
 @(define john-invited-talk
    @make-talk{Invited: Experiences with QuickCheck: Testing the Hard Stuff and Staying Sanei
-              @authors{@speaker{{John Hughes}}}
+              @authors{@speaker{John Hughes}}
               @abstract{QuickCheck is a random testing tool that Koen Claessen and I invented, which has since become the testing tool of choice in the Haskell community. In 2006 I co-founded Quviq, to develop and market an Erlang version, which we have since applied for a wide variety of customers, encountering many fascinating testing problems as a result. This talk introduces Quviq QuickCheck, and in particular the extensions made for testing stateful code, via a toy example in C. It goes on to describe the largest QuickCheck project to date, which developed acceptance tests for AUTOSAR C code on behalf of Volvo Cars. Finally it explains a race detection method that nailed a notorious bug plaguing Klarna, northern Europe's market leader in invoicing systems for e-commerce. Together, these examples give a reasonable overview of the way QuickCheck has been used in industrial practice.}
+              @resources[#f #f #f]})
+
+@(define anglican-tutorial
+   @make-talk{Invited: Anglican Tutorial
+              @authors{@speaker{Christian Weilbach}}
+              #f
               @resources[#f #f #f]})
