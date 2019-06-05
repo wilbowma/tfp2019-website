@@ -5,7 +5,8 @@
 
 
 (define wed-slots
-  `(("9:15--9:30" "Opening remarks")
+  `(("9:00" "Welcome and refreshment")
+    ("9:15--9:30" "Opening remarks")
     ("9:30--10:30" ,nikhil-keynote)
     ("10:30--11:00" ,break)
     ("11:00--11:30" ,talk1)
@@ -17,14 +18,16 @@
     #;("15:30--16:00" ,talk5)))
 
 (define thur-slots
-  `(("9:30--10:00" ,talk4)
+  `(("9:00" "Welcome and refreshment")
+    ("9:30--10:00" ,talk4)
     ("10:00--10:30" ,talk6)
     ("10:30--11:00" ,break)
     ("11:00--12:00" ,john-invited-talk)
     ("12:00--14:00" ,lunch)))
 
 (define fri-slots
-  `(("9:30--10:30" ,frank-keynote)
+  `(("9:00" "Welcome and refreshment")
+    ("9:30--10:30" ,frank-keynote)
     ("10:30--11:00" ,break)
     ("11:00--11:30" ,talk7)
     ("11:30--12:00" ,talk9)
