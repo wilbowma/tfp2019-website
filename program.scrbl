@@ -35,6 +35,7 @@
                          ls))))
       </div>
       }
+</td>
 })
 
 @(define (info-cell info)
