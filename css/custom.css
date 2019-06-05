@@ -20,12 +20,12 @@
     margin-left: 5px;
 }
 
-tr:target .program-abstract {
+td:target + td .program-abstract {
     display: table-caption;
     width: 100%;
 }
 
-tr:target .hide-abstract {
+td:target + td .hide-abstract {
     display: inline;
 }
 

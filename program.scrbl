@@ -20,7 +20,7 @@
 <td align="left" class="program-title-cell">
 @list{
       <div class="program-title">
-      <a href="#@|id|">@|title|</a> <a class="hide-abstract" href="#">(Hide Abstract)</a>
+      <a href="#@|id|">@|title|</a> <a class="hide-abstract" href="#clear">(Hide Abstract)</a>
       </div>
       <div class="bd-callout bd-callout-info program-abstract"><p class="lead">@|abstract|</p></div>
       <div class="program-authors">@|authors|</div>
@@ -49,8 +49,10 @@
    (define id (format "talk~a" counter))
    (set! counter (add1 counter))
    @list{
-<tr id="@|id|">
+<tr>
   <td align="left" class="program-time-cell">@|time|</td>
+  @;a dummy cell for using less jumpy targets to hide/unhide
+  <td id="@|id|" style="display: none;">&nbsp;</td>
   @(if (talk? talk-or-info)
        (talk-cell id talk-or-info)
        (info-cell talk-or-info))
@@ -60,6 +62,8 @@
 
 @page-header{TFP 2019 Program}
 
+@;a dummy anchor for using less jumpy targets to hide/unhide
+<a id="clear" style="display: none;">&nbsp;</a>
 @section{Program
 Click a title to see the abstract. The speaker is emphasized in the author list.
 
