@@ -71,7 +71,7 @@
 @(define frank-keynote
    @make-talk{Keynote: Probabilistic Programming
               @authors{@speaker{Frank Wood}}
-              @abstract{TBD}
+              @abstract{<p>Probabilistic programming uses programming language techniques to make it easy to denote and perform inference in the kinds of probabilistic models that inform decision-making, accelerate scientific discovery, and underlie modern attacks on the problem of artificial intelligence.  Deep learning uses programming language techniques to automate supervised learning of program parameter values by gradient-based optimization.  What happens if we put them together?  This talk will review probabilistic programming. It will also introduce inference compilation and address how linking deep learning and probabilistic programming is leading to powerful new AI techniques while also opening up significant new research questions.</p>}
               @resources[#f #f #f]
               })
 
@@ -139,7 +139,7 @@
               @resources[#f #f #f]})
 
 @(define anglican-tutorial
-   @make-talk{Invited: Anglican Tutorial
+   @make-talk{Invited: Anglican Tutorial: Turing-complete, functional Probabilistic Programming as a Domain Specific Language
               @authors{@speaker{Christian Weilbach}}
-              @abstract{TBD}
+              @abstract{<p>Anglican is a powerful probabilistic programming system that is embedded as a DSL in the functional programming language Clojure. Introduced in 2014, it established a CPS-based compiler for a Turing complete subset of Clojure and pioneered a diverse set of concepts in the probabilistic programming community such as integration with Bayesian Optimization or amortized inference. It exploits Clojure's persistent data structures to provide a minimal,functional interface to inference algorithms. This talk both introduces Anglican with examples and describes how such a system can be implemented in a few hundred lines of code. The talk will also contrast it with the trace-based approach of PyProb, a follow-up probabilistic programming system focused on amortized inference with deep learning in Python. Finally we will emphasize the trade-offs and challenges between functional environments and the popular Python environment as design objectives for a new functional, probabilistic programming language for numerical and statistical programming.</p>}
               @resources[#f #f #f]})
