@@ -24,7 +24,11 @@
     ("10:30--11:00" #f ,break)
     ("11:00--11:30" "Marco Morazan" ,talk4)
     ("11:30--12:00" #f ,talk6)
-    ("12:00--14:00" #f ,lunch)))
+    ("12:00--14:00" #f ,lunch)
+    ("After lunch (TBD)" #f "Nitobe Gardens")
+    ("After that (TBD)" #f "Museum of Anthropology")
+    ("After that (TBD)" #f "Enigma Cafe on 10th Ave")
+    ))
 
 (define fri-slots
   `(("9:00" #f "Welcome and refreshment")
