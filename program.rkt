@@ -30,7 +30,7 @@
     ("9:30--10:30" ,frank-keynote)
     ("10:30--11:00" ,break)
     ("11:00--11:30" ,talk7)
-    ("11:30--12:00" ,talk9)
+    ("11:30--12:00" "Cancelled due to unforeseeable events")
     ("12:00--14:00" ,lunch)
     ("14:00--15:00" ,anglican-tutorial)
     ("15:00--15:30" ,break)

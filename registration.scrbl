@@ -20,3 +20,14 @@ The registration fees cover attending both TFP and TFPIE, and are as followings:
 
 Boths fees include participation in the social dinner.
 }
+
+@section{Refund Policy
+The registration fee can be refunded if requested 3 business days before the event.
+This allows time for costs incurred by the symposium for each registrant, such
+as catering, to be adjusted.
+The refund must be issued via the same method of payment used for registration;
+e.g., we cannot issue a refund in cash or cheque for a payment made via credit
+card.
+Please email William J. Bowman (<span class="ubc">wilbowma</span>) to request a
+refund.
+}
