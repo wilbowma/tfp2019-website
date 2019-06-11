@@ -45,12 +45,13 @@
 </td>})
 
 @(define counter 0)
-@(define (program-slot time talk-or-info . rest)
+@(define (program-slot time maybe-chair talk-or-info . rest)
    (define id (format "talk~a" counter))
    (set! counter (add1 counter))
    @list{
 <tr>
-  <td align="left" class="program-time-cell">@|time|</td>
+  <td align="left" class="program-time-cell">@|time|
+@(if maybe-chair @list{<br />Chair: @|maybe-chair|} @list{})</td>
   @;a dummy cell for using less jumpy targets to hide/unhide
   <td id="@|id|" style="display: none;">&nbsp;</td>
   @(if (talk? talk-or-info)
