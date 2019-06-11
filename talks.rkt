@@ -15,9 +15,9 @@
 @(define authors list)
 @(define abstract list)
 @(define slides list)
-@(define pdf list)
+@(define preprint list)
 @(define (resources slides _ pdf)
-   (list (and slides @hyperlink[slides]{Slides}) (and pdf @hyperlink[pdf]{PDF})))
+   (list (and slides @hyperlink[slides]{Slides}) (and pdf @hyperlink[pdf]{Preprint})))
 
 @(define tbd-talk "TBD")
 
@@ -38,7 +38,7 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.}
               @resources{@slides{#}
-                         @pdf{#}}})
+                         @preprint{#}}})
 
 @(define nikhil-keynote
    @make-talk{Keynote: Structuring the Verification of Imperative Programs with Functional Programming
@@ -121,7 +121,8 @@
    @make-talk{Set Constraints, Pattern Match Analysis, and SMT
               @authors{@speaker{Joseph Eremondi}}
               @abstract{<p>We present a translation that converts a set constraint formula into an SMT problem. Our technique allows for arbitrary boolean combinations of positive or negative set constraints,and leverages the performance of modern solvers such as Z3. To show the usefulness of unrestricted set constraints,we use them to devise a pattern match analysis for functional languages. This analysis ensures that missing cases of pattern matches are always unreachable. We implement our analysis in the Elm compiler and show that the our translation is fast enough to be used in practical verification.</p>}
-              @resources[#f #f #f]})
+              @resources{@slides{https://eremondi.com/pdf/TFP19_slides.pdf}
+                         @preprint{https://arxiv.org/abs/1905.09423}}})
 
 @(define talk9
    @make-talk{Improving Structure and Performance of iTask SVG Editors
