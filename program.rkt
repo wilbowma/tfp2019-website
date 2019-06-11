@@ -25,9 +25,9 @@
     ("11:00&ndash;11:30" "Marco Morazan" ,talk4)
     ("11:30&ndash;12:00" #f ,talk6)
     ("12:00&ndash;14:00" #f ,lunch)
-    ("14:00&ndash;15:00" #f "Nitobe Gardens. <br />We'll walk from FTP at 2:00.")
+    ("14:00&ndash;15:00" #f "Nitobe Gardens. <br />We'll walk from TFP at 2:00.")
     ("15:00&ndash;16:00" #f "Museum of Anthropology<br />We'll walk from Nitobe at about 15:00.")
-    ("17:30" #f "Enigma Cafe on 10th Ave.<br />A group will take the 99 or 14 from UBC at 17:00. IT's a 55 minute walk from MOA for those who want to walk.")
+    ("17:30" #f "Enigma Cafe on 10th Ave.<br />A group will take the 99 or 14 from UBC at 17:00. It's a 55 minute walk from MOA for those who want to walk.")
     ))
 
 (define fri-slots
