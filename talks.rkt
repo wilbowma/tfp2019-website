@@ -144,3 +144,9 @@
               @authors{@speaker{Christian Weilbach}}
               @abstract{<p>Anglican is a powerful probabilistic programming system that is embedded as a DSL in the functional programming language Clojure. Introduced in 2014, it established a CPS-based compiler for a Turing complete subset of Clojure and pioneered a diverse set of concepts in the probabilistic programming community such as integration with Bayesian Optimization or amortized inference. It exploits Clojure's persistent data structures to provide a minimal,functional interface to inference algorithms. This talk both introduces Anglican with examples and describes how such a system can be implemented in a few hundred lines of code. The talk will also contrast it with the trace-based approach of PyProb, a follow-up probabilistic programming system focused on amortized inference with deep learning in Python. Finally we will emphasize the trade-offs and challenges between functional environments and the popular Python environment as design objectives for a new functional, probabilistic programming language for numerical and statistical programming.</p>}
               @resources[#f #f #f]})
+
+@(define opening-remarks
+   @make-talk{Opening Remarks
+              @authors{@speaker{Ron Garcia}}
+              @abstract{}
+              @resources[@slides{resources/OpeningRemarks.pdf} #f #f]})

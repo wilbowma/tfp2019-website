@@ -7,7 +7,7 @@
 (define wed-slots
   ; Time x Maybe-Chair x (Talk or HTML-String)
   `(("9:00" #f "Welcome and refreshment")
-    ("9:15&ndash;9:30" "Ron Garcia" "Opening remarks")
+    ("9:15&ndash;9:30" #f ,opening-remarks)
     ("9:30&ndash;10:30" "William J. Bowman" ,nikhil-keynote)
     ("10:30&ndash;11:00" #f ,break)
     ("11:00&ndash;11:30" #f ,talk1)
