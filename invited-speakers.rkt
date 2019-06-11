@@ -27,4 +27,9 @@
      "Probabilistic Programming"
      "https://www.cs.ubc.ca/~fwood/"
      )
-    ))
+    ("Christian Weilbach"
+     "https://whilo.github.io/assets/img/badge.png"
+     "A picture of Christian"
+     "Anglican Tutorial: Turing-complete, functional Probabilistic Programming as a Domain Specific Language"
+     "https://whilo.github.io/about/"
+    )))
