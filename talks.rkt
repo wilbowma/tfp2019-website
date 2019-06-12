@@ -65,7 +65,7 @@
               Everest (@url{https://project-everest.github.io}) which uses F* to
               build and deploy high performance, verified, secure
               implementations of cryptographic communication protocols.</p>}
-              @resources[#f #f #f]
+              @resources[@slides{https://fstar-lang.org/tfp2019/tfp2019.html#/sec-verifying-imperative-programs-with-functional-programming} #f #f]
               })
 
 @(define frank-keynote
