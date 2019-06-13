@@ -20,7 +20,7 @@
 
 (define thur-slots
   `(("9:00" #f "Welcome and refreshment")
-    ("9:30&ndash;10:00" "Ron Garcia" ,john-invited-talk)
+    ("9:30&ndash;10:30" "Ron Garcia" ,john-invited-talk)
     ("10:30&ndash;11:00" #f ,break)
     ("11:00&ndash;11:30" "Marco Morazan" ,talk4)
     ("11:30&ndash;12:00" #f ,talk6)
