@@ -24,6 +24,7 @@
     ("10:30&ndash;11:00" #f ,break)
     ("11:00&ndash;11:30" "Marco Morazan" ,talk4)
     ("11:30&ndash;12:00" #f ,talk6)
+    ("12:00&ndash;12:15" #f ,tfp2020)
     ("12:00&ndash;14:00" #f ,lunch)
     ("14:00&ndash;15:00" #f "Nitobe Gardens. <br />We'll walk from TFP at 2:00.")
     ("15:00&ndash;16:00" #f "Museum of Anthropology<br />We'll walk from Nitobe at about 15:00.")

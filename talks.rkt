@@ -150,3 +150,10 @@
               @authors{@speaker{Ron Garcia}}
               @abstract{}
               @resources[@slides{resources/OpeningRemarks.pdf} #f #f]})
+
+
+@(define tfp2020
+   @make-talk{TFP 2020
+              @authors{@speaker{John Hughes}}
+              @abstract{}
+              @resources[@slides{resources/tfp2020.pdf} #f #f]})
