@@ -109,7 +109,7 @@
    @make-talk{How to Specify it! A Guide to Writing Properties of Pure Functions.
               @authors{@speaker{John Hughes}}
               @abstract{<p>Many developers trying property-based testing for the first time find it difficult to identify properties to write—and find the simple examples in tutorials difficult to generalize. This is known as the oracle problem, and it is common to all approaches to testing that use test case generation. In this paper, therefore, we take a simple—but non-trivial—example of a purely functional data structure, and present five different approaches to writing properties, along with the pitfalls of each to keep in mind. We compare and constrast their effectiveness with the help of eight buggy implementations. We hope that the concrete advice presented here will enable readers to side-step the “where do I start?” question, and quickly derive the benefits that property-based testing has to offer.</p>}
-              @resources[#f #f @preprint{resources/tfp2019-how-to-specify-it.pdf}]})
+              @resources[@slides{resources/tfp2019-how-to-specify-it.pdf} #f #f]})
 
 @(define talk7
    @make-talk{Type Inference for Rank 2 Gradual Intersection Types
