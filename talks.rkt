@@ -115,7 +115,7 @@
    @make-talk{Type Inference for Rank 2 Gradual Intersection Types
               @authors{@speaker{Pedro Ângelo}, Mário Florido}
               @abstract{<p>In this paper we extend a rank 2 intersection type system with gradual types. We then show that the problem of finding a principal typing for a lambda term, in a rank 2 gradual intersection type system is decidable. We present a type inference algorithm which builds the principal typing of a term through the generation of type constraints which are solved by a new extended unification algorithm constructing the most general unifier for rank 2 gradual intersection types.</p>}
-              @resources[#f #f #f]})
+              @resources[@slides{https://prezi.com/view/OdyOXZMG0UQuZqdFZmXo/} #f #f]})
 
 @(define talk8
    @make-talk{Set Constraints, Pattern Match Analysis, and SMT
@@ -143,7 +143,7 @@
    @make-talk{Invited: Anglican Tutorial: Turing-complete, functional Probabilistic Programming as a Domain Specific Language
               @authors{@speaker{Christian Weilbach}}
               @abstract{<p>Anglican is a powerful probabilistic programming system that is embedded as a DSL in the functional programming language Clojure. Introduced in 2014, it established a CPS-based compiler for a Turing complete subset of Clojure and pioneered a diverse set of concepts in the probabilistic programming community such as integration with Bayesian Optimization or amortized inference. It exploits Clojure's persistent data structures to provide a minimal,functional interface to inference algorithms. This talk both introduces Anglican with examples and describes how such a system can be implemented in a few hundred lines of code. The talk will also contrast it with the trace-based approach of PyProb, a follow-up probabilistic programming system focused on amortized inference with deep learning in Python. Finally we will emphasize the trade-offs and challenges between functional environments and the popular Python environment as design objectives for a new functional, probabilistic programming language for numerical and statistical programming.</p>}
-              @resources[#f #f #f]})
+              @resources[@slides{https://bitbucket.org/probprog/ppaml-summer-school-2016/src/master/} #f #f]})
 
 @(define opening-remarks
    @make-talk{Opening Remarks
