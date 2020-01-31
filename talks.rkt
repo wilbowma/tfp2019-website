@@ -97,7 +97,7 @@
    @make-talk{Early Experience in Teaching the Basics of Functional Language Design with a Language Type Checker
               @authors{@speaker{Matteo Cimini}}
               @abstract{<p>In this paper we set forth the thesis that a language type checker can be an effective tool in teaching language design principles of functional languages. We have used TypeSoundnessCertifier, a tool for type checking languages and certifying their soundness, in the context of a graduate course in programming languages. In this paper, we offer details on how the course took place, and we report on some data gathered during evaluations. Although the work reported in this paper is not statistically significant, we share our experience to show the type of studies that we are conducting, and to inspire similar and larger studies towards gathering evidence for, or against, our thesis.</p>}
-              @resources[#f #f #f]})
+              @resources[@slides{http://www.cs.uml.edu/~mcimini/publications/documents/TFP2019_slides_teaching_with_TypeSoundnessCertitiertalk.pdf} #f #f]})
 
 @(define talk5
    @make-talk{Verifying Selective CPS Transformation for Shift and Reset
